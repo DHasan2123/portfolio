@@ -1,0 +1,189 @@
+/* General Styles for Resume */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header nav {
+    margin-top: 10px;
+  }
+  
+  header nav a {
+    color: #ecf0f1;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Styling */
+  main {
+    padding: 40px 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  /* Resume Sections */
+  .resume-section {
+    margin-bottom: 30px;
+  }
+  
+  .resume-section h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .resume-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .resume-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .resume-section ul li strong {
+    font-size: 1.1em;
+    color: #34495e;
+  }
+  
+  /* Contact Information Styling */
+  .resume-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .resume-section p a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .resume-section p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button Styling for Download */
+  .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    main {
+      padding: 20px;
+    }
+  
+    .resume-section h2 {
+      font-size: 1.5em;
+    }
+  
+    header h1 {
+      font-size: 2em;
+    }
+  
+    header nav a {
+      font-size: 0.9em;
+      margin: 0 10px;
+    }
+  
+    .btn {
+      font-size: 1em;
+      padding: 8px 16px;
+    }
+  }
+/* Profile Image Styling (Home and About pages) */
+.profile-pic {
+    width: 150px;  /* Set the image width */
+    height: 150px; /* Set the image height */
+    object-fit: cover;  /* Ensure the image doesn't stretch/distort */
+    border-radius: 50%;  /* Make the image circular */
+    margin-bottom: 20px;  /* Add some space below the image */
+  }
+  
+  /* About Page Image */
+ .profile-img {
+    width: 180px; /* Set a width for the about page image */
+    height: 180px; /* Set a height for the about page image */
+    object-fit: cover;  /* Ensure the image doesn't stretch/distort */
+    border-radius: 100%;  /* Make the image circular */
+    margin-bottom: 20px;  /* Add some space below the image */
+  }
+    
